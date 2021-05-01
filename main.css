@@ -1364,19 +1364,127 @@ color: #fff;
     background: #555;
 }
 
+.nav-link{
+    color:black !important;
+}
+.bigText{
+    color: #15365e;
+    font-size:60px;
+    text-align:center;
+    font-family: "brandon-grotesque", sans-serif;
+    padding-top:10px;
+}
+.h2Text{
+    color: #15365e;
+    text-align:center;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.dateRow{
+    margin-top:20px;
+    padding-top:20px;
+}
+.firstPage{
+    padding-top:25px;
+}
+.jumbotron{
+    margin-bottom:0px !important;
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+.container-fluid{
+    padding-top:10px;
+}
+.detailsText{
+    text-align:center;
+}
+#peddieBlueAndGold{/** storing these here in case we decide to use them**/
+    background-color: #cc9800;
+
+    background-color: #153256;
+}
+
 .headerText{
     color: #cc9800;
     font-size: 40px;
     font-family: "brandon-grotesque", sans-serif;
-    margin-top:-40px;
+    margin-top:20px;
 }
 .bodyText{
     color: #15365e;
-    font-size: 17px;
-    margin-left:17px;
+    font-size: 30px;
+    margin-left:30px;
     font-family: "brandon-grotesque", sans-serif;
 }
 
+.imageDesc{
+    color: #15365e;
+    font-size: 20px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.sponsors{
+    text-align:center;
+}
+
+.large{
+    font-size: 70px;
+    font-weight:900;
+    color:white;
+}
+.sponsorsLink{
+    color: #15365e;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.sponsorsLink:hover {
+    
+    background-color: lightblue; 
+  }
+.largeTitle{
+    font-size: 70px;
+    font-weight:900;
+    color:white;
+}
+.textAlignment{
+    text-align:center;
+    justify-content:left;
+}
+.faq{
+    text-align:center;
+}
+.details{
+    text-align:center;
+}
+.bodyTextfaq{
+    color: #15365e;
+    font-size: 20px;
+    margin-left:30px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.sponsorsText{
+    color: #15365e;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "brandon-grotesque", sans-serif;
+    margin-bottom:70px;
+    
+    text-decoration: underline;
+}
+.picture{
+    justify-content: center; 
+        width: 100%; 
+        height:auto!important;
+        margin-bottom:40px;
+}
+
+.fa {
+    padding: 10px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+.navbar-brand{
+    color:black !important;
+}
 .background{
     color:white; /*Change stuff inside this for background color*/
 }
