@@ -10,7 +10,7 @@
   }
   body {
 
-    background-color: #004884;
+    background-color: #180032;
 }
   /* Standard body text style */
 ot {
@@ -225,11 +225,11 @@ ot {
     /*background-image: url(images/inspr-19-logo.svg);*/
   }
   .imglogo{
-    margin-left: -300%;
+    margin-left: -280%;
     margin-top: -48%;
   }
   .imglogo :hover{
-    margin-left: -300%;
+    margin-left: -280%;
     margin-top: -48%;
     cursor: pointer;
   }
@@ -243,7 +243,7 @@ ot {
   }
   
   .siteHeader--home {
-    background: #4462b1;
+    background: #180032;
     margin-top: 0px;
     position: sticky;
     top: 0;
@@ -251,27 +251,27 @@ ot {
   }
   
   .siteHeader--about {
-    background: #f9ac3d;
+    background: #180032;
   }
   
   .siteHeader--faq {
-    background: #cf4917;
+    background: #180032;
   }
   
   .siteHeader--team {
-    background: #383938;
+    background: #180032;
   }
   
   .siteHeader--schedule {
-    background: #27ae60;
+    background: #180032;
   }
   
   .siteHeader--sponsorship {
-    background: #2d758c;
+    background: #180032;
   }
   
   .siteHeader--about .nav-button:hover {
-    color: #fff;
+    color: #180032;
   }
   
   .siteHeader--about .nav-button-selected:hover {
@@ -283,15 +283,15 @@ ot {
   }
   
   .siteHeader--faq .nav-button:hover {
-    color: #fff;
+    color: #180032;
   }
   
   .siteHeader--faq .nav-button-selected:hover {
-    color: #fff;
+    color: #180032;
   }
   
   .siteHeader--faq .nav-tickets-button:hover {
-    color: #cf4917;
+    color: #180032;
   }
   
   .siteHeader--team .nav-button:hover {
@@ -327,7 +327,7 @@ ot {
   }
   
   .siteHeader--sponsorship .nav-tickets-button:hover {
-    color: #2d758c;
+    color: #180032;
   }
   
   .siteHeader--home.is-sticky {
@@ -417,7 +417,7 @@ ot {
   }
   
   .nav-tickets-button:hover {
-    color: #4462b1;
+    color: #180032;
     text-shadow: none;
     width: 190px;
     height: 48px;
@@ -429,7 +429,7 @@ ot {
   
   .siteHeader--home .nav-tickets-button:hover {
     color: #dabd8f;
-    background-color: #2d758c;
+    background-color: #180032;
   }
   
   /****************************************************/
@@ -491,8 +491,8 @@ ot {
     color: #f9ac3d;
     text-decoration: none;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: bold;
+    font-family: 'Raleway',serif;
     font-size: 1.25rem;
     /*20px*/
     width: 392px;
@@ -1389,4 +1389,9 @@ color: #fff;
     .bodyText{
         font-size:20px;
     }
+}
+
+.about-text{
+
+  font-weight: bold;
 }

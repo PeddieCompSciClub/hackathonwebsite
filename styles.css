@@ -10,7 +10,7 @@
   }
   body {
 
-    background-color: #004884;
+    background-color: #1A0032;
 }
   /* Standard body text style */
 ot {
@@ -243,7 +243,7 @@ ot {
   }
   
   .siteHeader--home {
-    background: #4462b1;
+    background: #180032;
     margin-top: 0px;
     position: sticky;
     top: 0;
@@ -255,7 +255,7 @@ ot {
   }
   
   .siteHeader--faq {
-    background: #cf4917;
+    background: #180032;
   }
   
   .siteHeader--team {
@@ -1389,4 +1389,8 @@ color: #fff;
     .bodyText{
         font-size:20px;
     }
+}
+
+.acordian{
+  background-color: #180032;
 }
