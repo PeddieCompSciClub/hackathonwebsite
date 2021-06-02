@@ -18,7 +18,7 @@
 ot {
     font-size: 16px;
     line-height: 1.5rem;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", raleway;
     font-weight: 600;
     color: #888888;
   }
@@ -329,8 +329,11 @@ ot {
   }
   
   .siteHeader--sponsorship .nav-tickets-button:hover {
-    color: #2d758c;
-  }
+     color: #180032;
+
+      }
+
+  
   
   .siteHeader--home.is-sticky {
     /*background: #2767e4;*/
