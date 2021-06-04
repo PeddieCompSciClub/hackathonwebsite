@@ -1581,16 +1581,16 @@ h2 {
   font-weight: bold;
 }
 #rect2{
-  width: 350px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   background-color:goldenrod;
   padding: 20px;
 }
 #rect3{
-  width: 750px;
-  height: 250px;
+  width: 800px;
+  height: 425px;
   background-color:goldenrod;
-  padding:20px;
+  padding: 20px;
 }
 .section2 {
   display: grid;
@@ -1599,13 +1599,13 @@ h2 {
   text-align: center;
   gap: 3%;
   grid-auto-flow: column;
- padding: 25px;
+ padding: 15px;
 }
 .column3 p {
   color:black;
   font-family: 'Raleway', serif;
   font-size: 15px;
-  padding: 5px;
+  padding: 2px;
   text-align: left;
   font-weight: bold;
   
@@ -1614,6 +1614,6 @@ h2 {
   color:black;
   font-family:'Raleway', serif;
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
