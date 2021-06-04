@@ -1582,13 +1582,13 @@ h2 {
 }
 #rect2{
   width: 400px;
-  height: 400px;
+  height: 425px;
   background-color:goldenrod;
   padding: 20px;
 }
 #rect3{
   width: 800px;
-  height: 425px;
+  height: 450px;
   background-color:goldenrod;
   padding: 20px;
 }
@@ -1597,7 +1597,7 @@ h2 {
   justify-content: center;
   align-content: center;
   text-align: center;
-  gap: 3%;
+  gap: 1%;
   grid-auto-flow: column;
  padding: 15px;
 }
@@ -1613,7 +1613,7 @@ h2 {
 .column3 p2 {
   color:black;
   font-family:'Raleway', serif;
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   text-align: center;
 }
