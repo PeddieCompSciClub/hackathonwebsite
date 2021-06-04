@@ -1476,7 +1476,7 @@ nav li a {
   font-family: 'Raleway',serif;
   text-align: left;
   font-size: 25px;
-   font-weight: initial;  
+   
   padding:5px;
 }
 .item1 {
@@ -1505,9 +1505,7 @@ nav li a {
   margin-right: auto;
   align-items: center;
 }
-.text-left{
-  
-}
+
 .bodyTextfaq{
   padding-bottom: 3%;
   
@@ -1517,5 +1515,62 @@ nav li a {
   padding-top: 3%;
 }
 .aligncenter {
+  text-align: center;
+}
+
+.column2 p {
+  color:black;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  
+}
+.column2 p2 {
+  color:black;
+  font-family:'Raleway', serif;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+}
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 3%;
+  grid-auto-flow: column;
+ padding: 50px;
+}
+#rect{
+  width: 400px;
+  height: 500px;
+  background-color:goldenrod;
+  padding:20px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Raleway', serif;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  
+}
+.column {
+  flex: 25%;
+  padding: 5px;
+  width: 33%;
+  align-items: center;
+}
+.column img {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+.img-with-text {
   text-align: center;
 }
