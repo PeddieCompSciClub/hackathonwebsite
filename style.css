@@ -1447,13 +1447,14 @@ nav li a {
 } */
 .navbar-custom {
   background-color:#1A0032;
-  height: 200px;
+  height: 150px;
 }
 .abs-center-x {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
+
 .grid-container {
   display: grid;
   grid-gap: 10px;
