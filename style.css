@@ -1561,9 +1561,9 @@ h2 {
   display: flex;
 }
 .column {
-  flex: 20%;
+  flex: 33%;
   padding: 5px;
-  width: 20%;
+  width: 33%;
   align-items: center; 
 }
 .column img {
@@ -1579,4 +1579,41 @@ h2 {
   font-family: 'Raleway', serif;
   font-size: 20px;
   font-weight: bold;
+}
+#rect2{
+  width: 350px;
+  height: 250px;
+  background-color:goldenrod;
+  padding: 20px;
+}
+#rect3{
+  width: 750px;
+  height: 250px;
+  background-color:goldenrod;
+  padding:20px;
+}
+.section2 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 3%;
+  grid-auto-flow: column;
+ padding: 25px;
+}
+.column3 p {
+  color:black;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+  
+}
+.column3 p2 {
+  color:black;
+  font-family:'Raleway', serif;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
 }
