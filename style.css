@@ -239,6 +239,11 @@ ot {
 
     /*background-image: url(images/inspr-19-logo.svg);*/
   }
+  .logo1{
+    box-sizing: border-box;
+    width: auto;
+    height: 50px;
+  }
  
   .siteHeader {
     /*background: #f4f4f9;*/
