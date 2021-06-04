@@ -219,22 +219,7 @@ ot {
   
   /* Logo image */
   
-  .logo {
-    box-sizing: border-box;
-    width: 113px;
-    height: 38px;
 
-    /*background-image: url(images/inspr-19-logo.svg);*/
-  }
-  .imglogo{
-    margin-left: -300%;
-    margin-top: -48%;
-  }
-  .imglogo :hover{
-    margin-left: -300%;
-    margin-top: -48%;
-    cursor: pointer;
-  }
   .siteHeader {
     /*background: #f4f4f9;*/
     background: #f9ac3d;
@@ -271,70 +256,6 @@ ot {
   .siteHeader--sponsorship {
     background: #2d758c;
   }
-  
-  .siteHeader--about .nav-button:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--about .nav-button-selected:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--about .nav-tickets-button:hover {
-    color: #f9ac3d;
-  }
-  
-  .siteHeader--faq .nav-button:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--faq .nav-button-selected:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--faq .nav-tickets-button:hover {
-    color: #cf4917;
-  }
-  
-  .siteHeader--team .nav-button:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--team .nav-button-selected:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--team .nav-tickets-button:hover {
-    color: #383938;
-  }
-  
-  .siteHeader--schedule .nav-button:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--schedule .nav-button-selected:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--schedule .nav-tickets-button:hover {
-    color: #27ae60;
-  }
-  
-  .siteHeader--sponsorship .nav-button:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--sponsorship .nav-button-selected:hover {
-    color: #fff;
-  }
-  
-  .siteHeader--sponsorship .nav-tickets-button:hover {
-     color: #180032;
-
-      }
-
-  
-  
   .siteHeader--home.is-sticky {
     /*background: #2767e4;*/
     transition: 0.3s;
@@ -343,99 +264,6 @@ ot {
     background: rgba(0, 0, 0, 1.0);
   }
   
-  .nav-items {
-    display: flex;
-  }
-  
-  .nav-item {
-    /* Shift button text down to align with Get Tickets text */
-    padding-top: 8px;
-    /* Spacing btwn buttons */
-    margin-left: 36px;
-  }
-  
-  .nav-item:first-child {
-    /* Spacing btwn first button & logo */
-    margin-left: -30px;
-  }
-  
-  /* .nav-item:last-child {
-    margin-right: 42vw;
-  } */
-  
-  .nav-button {
-    transition: all 0.2s ease-in-out;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .siteHeader--home .nav-button {
-    color: #fff;
-  }
-  
-  .nav-button:hover {
-    border-bottom: 4px solid #fff;
-  }
-  
-  .siteHeader--home .nav-button:hover {
-    border-bottom-color: #fff;
-  }
-  
-  .nav-button-selected {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 4px solid #fff;
-  }
-  
-  .siteHeader--home .nav-button-selected {
-    color: #fff;
-    border-bottom-color: #fff;
-  }
-  
-  .nav-tickets-button {
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    align-self: flex-end;
-    color: #fff;
-    text-shadow: none;
-    width: 190px;
-    height: 48px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    outline: none;
-  }
-  
-  /* .nav-tickets-button:active {
-    transition: none;
-    -moz-box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
-    -webkit-box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
-    box-shadow: inset 0px 0px 0px 3px rgba(67, 67, 67, 0.3);
-  } */
-  
-  .siteHeader--home .nav-tickets-button {
-    color: #2d758c;
-    border-color: #2d758c;
-  }
-  
-  .nav-tickets-button:hover {
-    color: #4462b1;
-    text-shadow: none;
-    width: 190px;
-    height: 48px;
-    left: 1690px;
-    top: 24px;
-    background-color: #fff;
-    border-style: none;
-  }
-  
-  .siteHeader--home .nav-tickets-button:hover {
-    color: #dabd8f;
-    background-color: #2d758c;
-  }
   
   /****************************************************/
   
@@ -1369,9 +1197,6 @@ color: #fff;
     background: #555;
 }
 
-.nav-link{
-    color:black !important;
-}
 .bigText{
     color: #15365e;
     font-size:60px;
@@ -1487,9 +1312,7 @@ color: #fff;
     text-align: center;
     text-decoration: none;
   }
-.navbar-brand{
-    color:black !important;
-}
+
 .background{
     color:white; /*Change stuff inside this for background color*/
 }

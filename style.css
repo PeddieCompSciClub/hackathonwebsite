@@ -1384,7 +1384,7 @@ color: #fff;
 }
 
 .headerText{
-    color: #cc9800;
+    color: #F3F859;
     font-size: 40px;
     font-family: "brandon-grotesque", sans-serif;
     margin-top:-40px;
@@ -1504,4 +1504,18 @@ nav li a {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+}
+.text-left{
+  
+}
+.bodyTextfaq{
+  padding-bottom: 3%;
+  
+}
+
+.headerText{
+  padding-top: 3%;
+}
+.aligncenter {
+  text-align: center;
 }
