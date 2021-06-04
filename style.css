@@ -32,6 +32,7 @@ ot {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
   }
   
   .gridContainer {
@@ -41,6 +42,7 @@ ot {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
   .gridContainer columns--4 {
     width: 1200px;
@@ -49,7 +51,7 @@ ot {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding: 20px;
   }
   
   .columns--scheduleLegend {
