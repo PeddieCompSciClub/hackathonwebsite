@@ -1449,3 +1449,51 @@ nav li a {
   left: 50%;
   transform: translateX(-50%);
 }
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  color: #f3f859;
+  font-family: 'Raleway',serif;
+  text-align: left;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.grid-item p{
+  color:#fff;
+  font-family: 'Raleway',serif;
+  text-align: left;
+  font-size: 25px;
+   font-weight: initial;  
+  padding:5px;
+}
+.item1 {
+  grid-column: 1 ;
+  grid-row: 1;
+  max-width:80%;
+}
+.item2{
+  grid-column: 2 ;
+  grid-row: 1/span 2;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.calligram{     
+  width: 650px;
+  height: 650px;     
+  align-items: center;      
+  justify-items: center;
+
+}
+.peddie{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
