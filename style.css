@@ -234,8 +234,8 @@ ot {
   
   .logo {
     box-sizing: border-box;
-    width: 113px;
-    height: 38px;
+    width: auto;
+    height: 30px;
 
     /*background-image: url(images/inspr-19-logo.svg);*/
   }
@@ -1433,7 +1433,7 @@ nav ul {
 nav li a {
   font-family: 'Raleway';
   font-size: 25px;
-  padding: 50px;
+  padding: 25px;
   color: white ;
   font-weight: bold
 }
