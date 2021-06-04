@@ -1558,7 +1558,7 @@ h2 {
 }
 .row {
   display: flex;
-  
+  align-items: center;
 }
 .column {
   flex: 25%;
