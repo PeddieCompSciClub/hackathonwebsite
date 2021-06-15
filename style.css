@@ -1525,6 +1525,7 @@ h2 {
   font-size: 80px;
   color: white;
   font-weight: bold;
+  padding: 15px;
 }
 .row {
   display: flex;
@@ -1540,6 +1541,21 @@ h2 {
   height: 320px;
   background-size: cover;
 }
+.column4 {
+  flex: 25%;
+  width: 25%;
+  align-items: center; 
+}
+.row2{
+  padding-left:12.5%;
+  padding-right:12.5%;
+  display: flex;
+}
+.column4 img{
+  width: 300px;
+  height: 320px;
+  background-size: cover;
+}
 .img-with-text {
   text-align: center;
 }
@@ -1549,6 +1565,13 @@ h2 {
   font-size: 20px;
   font-weight: bold;
 }
+.column4 p {
+  color:goldenrod;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #rect2{
   width: 400px;
   height: 475px;
