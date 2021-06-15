@@ -1409,17 +1409,17 @@ nav ul {
   /*margin-right: 15%;*/
   /* overflow: hidden; */
 max-width: 100%;
-margin-left: auto;
-margin-right: auto;
+margin:0px;
 }
 
 nav li a {
   font-family: 'Raleway';
-  font-size: 25px;
-  padding: 25px;
+  font-size: 20px;
+  padding: 20px;
   color: white ;
   font-weight: bold;
   display: inline;
+  max-width: 100%;
 }
 /* nav li a:hover {
   color  ;
@@ -1430,7 +1430,7 @@ nav li a {
   max-width: 100%;
   padding-top: 35px;
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: auto;
 
 }
 .grid-container {
