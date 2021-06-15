@@ -1504,20 +1504,12 @@ nav li a {
   padding: 5px;
   text-align: center;
 }
-section {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  gap: 3%;
-  grid-auto-flow: column;
- padding: 50px;
-}
 #rect{
   width: 400px;
   height: 500px;
   background-color:goldenrod;
   padding:20px;
+  border-radius: 20px;
 }
 h2 {
   text-align: center;
@@ -1532,7 +1524,6 @@ h2 {
 }
 .column {
   flex: 20%;
-  padding: 5px;
   width: 20%;
   align-items: center; 
 }
@@ -1547,8 +1538,8 @@ h2 {
   align-items: center; 
 }
 .row2{
-  padding-left:12.5%;
-  padding-right:12.5%;
+  padding-left:12%;
+  padding-right:12%;
   display: flex;
 }
 .column4 img{
@@ -1577,12 +1568,33 @@ h2 {
   height: 475px;
   background-color:goldenrod;
   padding: 20px;
+  border-radius: 20px;
 }
 #rect3{
-  width: 800px;
-  height: 525px;
+  width: 640px;
+  height: 250px;
   background-color:goldenrod;
-  padding: 20px;
+  padding-left: 7.5%;
+  padding-right: 0%;
+  padding-bottom: 10% ;
+  border-radius: 0px 0px 0px 20px;
+}
+#rect4{
+  width: 640px;
+  height: 250px;
+  background-color:goldenrod;
+  padding-left: 0%;
+  padding-right: 7.5%;
+  padding-bottom: 10% ;
+  border-radius: 0px 0px 20px 0px;
+}
+#rect5{
+  width: 100%;
+  height: 75px;
+  background-color:goldenrod;
+  padding-bottom: 0% ;
+  border-radius: 20px 20px 0px 0px;
+  align-items: center;
 }
 .section2 {
   display: grid;
@@ -1597,15 +1609,56 @@ h2 {
   color:black;
   font-family: 'Raleway', serif;
   font-size: 15px;
-  padding: 2px;
-  text-align: left;
+  padding: 3px;
+  text-align:center;
   font-weight: bold;
   
+}
+.column5 p2 {
+  color:black;
+  font-family:'Raleway', serif;
+  font-size: 30px;
+  text-align: center;
 }
 .column3 p2 {
   color:black;
   font-family:'Raleway', serif;
   font-size: 30px;
-  padding: 10px;
   text-align: center;
+  padding:10px;
+}
+
+.column3 {
+  flex: 50%;
+  padding-left: 7.5%;
+  padding-bottom: 10%;
+  padding-right: 0%;
+}
+.row3{
+  display: flex;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center;
+  padding-bottom: 1.8%;
+}
+.row4{
+  display: flex;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center;
+}
+.column5{
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center; 
+  padding:15px;
+}
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 3%;
+  grid-auto-flow: column;
+ padding: 1.8%;
 }
