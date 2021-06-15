@@ -236,7 +236,7 @@ ot {
   
   .logo {
     box-sizing: border-box;
-    width: auto;
+    max-width: 100%;
     height: 30px;
 
     /*background-image: url(images/inspr-19-logo.svg);*/
@@ -1395,7 +1395,10 @@ color: #fff;
   color:white;
 
 }
-
+.nav{
+  padding:0px;
+  margin: 0px;
+}
 nav ul {
   padding: 0;
   display: flex;
@@ -1405,7 +1408,8 @@ nav ul {
   /*margin-right: 15%;*/
   /* overflow: hidden; */
 max-width: 100%;
-margin:0px;
+margin-left: auto;
+margin-right: auto;
 }
 
 nav li a {
@@ -1413,7 +1417,8 @@ nav li a {
   font-size: 25px;
   padding: 25px;
   color: white ;
-  font-weight: bold
+  font-weight: bold;
+  display: inline;
 }
 /* nav li a:hover {
   color  ;
