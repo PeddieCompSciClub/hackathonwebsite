@@ -1420,6 +1420,7 @@ nav li a {
 .navbar-custom {
   background-color:#1A0032;
   height: 150px;
+  max-width: 100%;
 }
 .abs-center-x {
   position: absolute;
