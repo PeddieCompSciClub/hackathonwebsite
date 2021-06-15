@@ -1421,6 +1421,8 @@ nav li a {
   background-color:#1A0032;
   height: 150px;
   max-width: 100%;
+  margin:auto;
+  
 }
 .abs-center-x {
   position: absolute;
