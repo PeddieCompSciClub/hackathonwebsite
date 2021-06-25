@@ -1572,37 +1572,40 @@ h2 {
 
 #rect2{
   width: 300px;
-  height: 450px;
+  height: 375px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
 }
 #rect3{
-  width: 640px;
-  height: 250px;
+  width: 325px;
+  height: 325px;
   background-color:goldenrod;
-  padding-left: 7.5%;
+  /* padding-left: 7.5%;
   padding-right: 0%;
-  padding-bottom: 10% ;
+  padding-bottom: 10% ; */
   border-radius: 0px 0px 0px 20px;
+  padding-top:10px;
 }
 #rect4{
-  width: 640px;
-  height: 250px;
+  width: 325px;
+  height: 325px;
   background-color:goldenrod;
-  padding-left: 0%;
+  /* padding-left: 0%;
   padding-right: 7.5%;
-  padding-bottom: 10% ;
+  padding-bottom: 10% ; */
   border-radius: 0px 0px 20px 0px;
+  padding-top:10px;
+
 }
-#rect5{
+/* #rect5{
   width: 100%;
   height: 75px;
   background-color:goldenrod;
   padding-bottom: 0% ;
   border-radius: 20px 20px 0px 0px;
   align-items: center;
-}
+} */
 .section2 {
   display: grid;
   justify-content: center;
@@ -1637,16 +1640,16 @@ h2 {
 
 .column3 {
   flex: 50%;
-  padding-left: 7.5%;
-  padding-bottom: 10%;
+  /* padding-left: 7.5%;
+  padding-bottom: 10%; */
   padding-right: 0%;
 }
 .row3{
   display: flex;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  /* padding-left: 7.5%;
+  padding-right: 7.5%; */
   text-align: center;
-  padding-bottom: 1.8%;
+  /* padding-bottom: 1.8%; */
 }
 .row4{
   display: flex;
@@ -1715,16 +1718,27 @@ flex:30%;
 
 #rect6 {
   width: 300px;
-  height: 650px;
+  height: 675px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
 }
 
 #rect7 {
-  width: 640px;
-  height: 450px;
+  width: 650px;
+  height: 50px;
   background-color:goldenrod;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+.section3 {
+  display: inline-block;
+  grid-auto-flow: column;
+ padding: 1.8%;
+}
+.swag{
+  display: inline-flex
+}
+.swag2{
+  display:table-column;
 }
