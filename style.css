@@ -1571,8 +1571,8 @@ h2 {
 }
 
 #rect2{
-  width: 400px;
-  height: 475px;
+  width: 300px;
+  height: 450px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
@@ -1630,7 +1630,7 @@ h2 {
 .column3 p2 {
   color:black;
   font-family:'Raleway', serif;
-  font-size: 30px;
+  font-size: 22px;
   text-align: center;
   padding:10px;
 }
@@ -1711,4 +1711,20 @@ margin-left: 15%;
 }
 .column7 {
 flex:30%;
+}
+
+#rect6 {
+  width: 300px;
+  height: 650px;
+  background-color:goldenrod;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#rect7 {
+  width: 640px;
+  height: 450px;
+  background-color:goldenrod;
+  padding: 20px;
+  border-radius: 20px;
 }
