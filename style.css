@@ -26,6 +26,10 @@ ot {
     margin:0;
     overflow-x: hidden;
   }
+  .navbar-custom li a:hover {
+    text-decoration: 4px underline;
+    text-decoration-color:bisque;
+}
   /** Utility classes **/
   
   .gridContainer--default {
