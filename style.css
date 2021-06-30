@@ -1361,7 +1361,7 @@ color: #fff;
 .bodyText{
     color: #15365e;
     font-size: 17px;
-    margin-left:17px;
+    /* margin-left:17px; */
     font-family: "brandon-grotesque", sans-serif;
 }
 
@@ -1484,12 +1484,17 @@ nav li a {
 }
 
 .bodyTextfaq{
-  padding-bottom: 3%;
-  
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:1%;
+  padding-bottom:2%;
 }
 
 .headerText{
   padding-top: 3%;
+}
+.faqtitle{
+  padding-bottom: 2%;
 }
 .aligncenter {
   text-align: center;
