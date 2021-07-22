@@ -73,16 +73,11 @@ ot {
     color: #f5dbd1;
   }
   
-  /****************************************************/
-  
-  /* Logo image */
-  
   .logo {
     box-sizing: border-box;
     max-width: 100%;
     height: 30px;
 
-    /*background-image: url(images/inspr-19-logo.svg);*/
   }
   .logo1{
     box-sizing: border-box;
@@ -91,7 +86,6 @@ ot {
   }
  
   .siteHeader {
-    /*background: #f4f4f9;*/
     background: #f9ac3d;
     padding: 24px;
     position: sticky;
@@ -128,27 +122,20 @@ ot {
   }
 
   .siteHeader--home.is-sticky {
-    /*background: #2767e4;*/
     transition: 0.3s;
-    /*background: #00cbff;*/
-    /*background: #20bff9;*/
     background: rgba(0, 0, 0, 1.0);
   }
   
   .hero-bg {
-    /* background-image: url(images/hero-bg.svg); */
     width: 100%;
     height: 100%;
-    /* background-size: cover; */
     background-size: 125% auto;
     background-position: top center;
-      
-  /*  background-color: #4462b1;*/
+
   }
   
   .hero {
-    /* background: #3379ff;
-    padding-top: 258px; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +151,6 @@ ot {
     font-weight: bold;
     font-family: 'Raleway',serif;
     font-size: 1.25rem;
-    /*20px*/
     width: 392px;
     height: 74px;
     background-color: transparent;
@@ -172,34 +158,23 @@ ot {
     border: 2px solid #f9ac3d;
     border-radius: 5px;
   }
-  
-  /* .hero-tickets-button:active {
-    transition: none;
-    -moz-box-shadow: inset 0px 0px 0px 3px #d4b344;
-    -webkit-box-shadow: inset 0px 0px 0px 3px #d4b344;
-    box-shadow: inset 0px 0px 0px 3px #d4b344;
-  } */
-  
+
   .hero-tickets-button:hover {
     font-size: 1.3rem;
     background-color: transparent;
     color: #f9ac3d;
     border-radius: 15px;
   }
-  
-  
-/* width */
+
 ::-webkit-scrollbar {
     width: 5px;
     border-radius: 4px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
@@ -213,7 +188,6 @@ ot {
 .bodyText{
     color: #15365e;
     font-size: 17px;
-    /* margin-left:17px; */
     font-family: "brandon-grotesque", sans-serif;
 }
 
@@ -236,11 +210,8 @@ nav ul {
   padding: 0;
   display: flex;
   float: left;
-  /* align-items: right; */
   justify-content: space-between;
   list-style-type: none;
-  /*margin-right: 15%;*/
-  /* overflow: hidden; */
 max-width: 100%;
 margin:0px;
 }
@@ -254,9 +225,6 @@ nav li a {
   display: inline;
   max-width: 100%;
 }
-/* nav li a:hover {
-  color  ;
-} */
 .navbar-custom {
   background-color:#1A0032;
   height: 150px;
@@ -510,16 +478,11 @@ h2 {
 
 .column3 {
   flex: 50%;
-  /* padding-left: 7.5%;
-  padding-bottom: 10%; */
   padding-right: 0%;
 }
 .row3{
   display: flex;
-  /* padding-left: 7.5%;
-  padding-right: 7.5%; */
   text-align: center;
-  /* padding-bottom: 1.8%; */
 }
 .row4{
   display: flex;
