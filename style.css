@@ -318,8 +318,8 @@ nav li a {
   text-align: center;
 }
 #rect{
-  width: 400px;
-  height: 650px;
+  width: 350px;
+  height: 690px;
   background-color:goldenrod;
   padding:20px;
   border-radius: 20px;
@@ -443,6 +443,30 @@ h2 {
   border-radius: 0px 0px 20px 0px;
   padding-top:15px;
 
+}
+#rect11{
+  width: 300px;
+  height: 630px;
+  background-color:goldenrod;
+  border-radius: 0px 0px 0px 20px;
+  padding-top:10px;
+  padding-left: 15px;
+}
+#rect12{
+  width: 300px;
+  height: 630px;
+  background-color:goldenrod;
+  border-radius: 0px 0px 20px 0px;
+  padding-top:10px;
+  padding-right: 15px;
+
+}
+#rect13 {
+  width: 600px;
+  height: 60px;
+  background-color:goldenrod;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
 }
 .section2 {
   display: grid;
