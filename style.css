@@ -378,14 +378,14 @@ h2 {
 
 #rect2{
   width: 300px;
-  height: 375px;
+  height: 510px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
 }
 #rect3{
   width: 325px;
-  height: 325px;
+  height: 385px;
   background-color:goldenrod;
   border-radius: 0px 0px 0px 20px;
   padding-top:10px;
@@ -393,7 +393,7 @@ h2 {
 }
 #rect4{
   width: 325px;
-  height: 325px;
+  height: 385px;
   background-color:goldenrod;
   border-radius: 0px 0px 20px 0px;
   padding-top:10px;
@@ -402,14 +402,14 @@ h2 {
 }
   #rect5{
   width: 345px;
-  height: 170px;
+  height: 200px;
   background-color:goldenrod;
   padding-top: 15px;
   border-radius: 0px 0px 0px 0px;
 }  
 #rect6 {
   width: 300px;
-  height: 675px;
+  height: 800px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
@@ -431,14 +431,14 @@ h2 {
 }
 #rect9{
   width: 325px;
-  height: 170px;
+  height: 200px;
   background-color:goldenrod;
   border-radius: 0px 0px 0px 20px;
   padding-top:15px;
 }
 #rect10{
   width: 325px;
-  height: 170px;
+  height: 200px;
   background-color:goldenrod;
   border-radius: 0px 0px 20px 0px;
   padding-top:15px;
@@ -467,6 +467,13 @@ h2 {
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px 20px 0px 0px;
+}
+#rect14{
+  width: 300px;
+  height: 435px;
+  background-color:goldenrod;
+  padding: 20px;
+  border-radius: 20px;
 }
 .section2 {
   display: grid;
