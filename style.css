@@ -395,7 +395,7 @@ h2 {
 }
 #rect3{
   width: 325px;
-  height: 385px;
+  height: 325px;
   background-color:goldenrod;
   border-radius: 0px 0px 0px 20px;
   padding-top:10px;
@@ -403,7 +403,7 @@ h2 {
 }
 #rect4{
   width: 325px;
-  height: 385px;
+  height: 325;
   background-color:goldenrod;
   border-radius: 0px 0px 20px 0px;
   padding-top:10px;
@@ -411,11 +411,11 @@ h2 {
 
 }
   #rect5{
-  width: 345px;
-  height: 200px;
-  background-color:goldenrod;
-  padding-top: 15px;
-  border-radius: 0px 0px 0px 0px;
+    width: 300px;
+    height: 440px; 
+    background-color:goldenrod;
+    padding: 20px;
+    border-radius: 20px;
 }  
 #rect6 {
   width: 300px;
@@ -433,7 +433,7 @@ h2 {
   border-radius: 20px 20px 0px 0px;
 }
 #rect8 {
-  width: 1340px;
+  width: 650px;
   height: 50px;
   background-color:goldenrod;
   padding: 20px;
@@ -441,14 +441,14 @@ h2 {
 }
 #rect9{
   width: 325px;
-  height: 200px;
+  height: 390px;
   background-color:goldenrod;
   border-radius: 0px 0px 0px 20px;
   padding-top:15px;
 }
 #rect10{
   width: 325px;
-  height: 200px;
+  height: 390px;
   background-color:goldenrod;
   border-radius: 0px 0px 20px 0px;
   padding-top:15px;
@@ -480,7 +480,7 @@ h2 {
 }
 #rect14{
   width: 300px;
-  height: 435px;
+  height: 375px;
   background-color:goldenrod;
   padding: 20px;
   border-radius: 20px;
