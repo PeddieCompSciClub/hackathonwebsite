@@ -334,6 +334,8 @@ h2 {
 }
 .row {
   display: flex;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .column {
   flex: 20%;
@@ -359,6 +361,14 @@ h2 {
   width: 300px;
   height: 320px;
   background-size: cover;
+  
+}
+.column4 p{
+  word-wrap: break-word;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 .img-with-text {
   text-align: center;
