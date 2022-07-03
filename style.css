@@ -11,7 +11,7 @@
   }
   body {
     margin:0px;
-    background-color: #180032;
+    background-color: #FFD06E/*#180032;*/
 }
   /* Standard body text style */
 ot {
@@ -145,18 +145,18 @@ ot {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f9ac3d;
+    color: #004A9F;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
     font-family: 'Raleway',serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     width: 392px;
     height: 74px;
     background-color: transparent;
     text-shadow: none;
-    border: 2px solid #f9ac3d;
-    border-radius: 5px;
+    border: 10px solid #004A9F;
+    border-radius: 10px;
   }
 
   .hero-tickets-button:hover {
@@ -207,13 +207,13 @@ ot {
   margin: 0px;
 }
 nav ul {
-  padding: 0;
+  padding: 0px;
   display: flex;
   float: left;
   justify-content: space-between;
   list-style-type: none;
 max-width: 100%;
-margin:0px;
+margin:10px;
 }
 
 nav li a {
@@ -223,20 +223,20 @@ nav li a {
   color: white ;
   font-weight: bold;
   display: inline;
-  max-width: 100%;
+  max-width:100%;
 }
 .navbar-custom {
-  background-color:#1A0032;
+  background-color:#005E9F;
   height: 150px;
   max-width: 100%;
-  padding-top: 35px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
 
 }
 .grid-container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: ss10px;
   padding: 10px;
 }
 
