@@ -232,7 +232,13 @@ nav li a {
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
-
+}
+.navbar-box {
+  height: 150px;
+  max-width: 100%;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .grid-container {
   display: grid;
