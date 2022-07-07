@@ -209,7 +209,7 @@ ot {
 nav ul {
   padding: 0px;
   display: flex;
-  float: left;
+  float: center;
   justify-content: space-between;
   list-style-type: none;
 max-width: 100%;
