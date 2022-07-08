@@ -1,4 +1,9 @@
-* {
+/*
+Yellow: #FFD06E
+Blue: #005E9f
+Red: #f26d73
+*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +16,7 @@
   }
   body {
     margin:0px;
-    background-color: #FFD06E;
+    background-color: #005e9f;
 }
   /* Standard body text style */
 ot {
@@ -327,7 +332,7 @@ nav li a {
 #rect{
   width: 350px;
   height: 690px;
-  background-color:goldenrod;
+  background-color:#f26d73;
   padding:20px;
   border-radius: 20px;
 }
@@ -464,7 +469,7 @@ h2 {
 #rect11{
   width: 300px;
   height: 630px;
-  background-color:goldenrod;
+  background-color:#f26d73;
   border-radius: 0px 0px 0px 20px;
   padding-top:10px;
   padding-left: 15px;
@@ -472,7 +477,7 @@ h2 {
 #rect12{
   width: 300px;
   height: 630px;
-  background-color:goldenrod;
+  background-color:#f26d73;
   border-radius: 0px 0px 20px 0px;
   padding-top:10px;
   padding-right: 15px;
@@ -481,7 +486,7 @@ h2 {
 #rect13 {
   width: 600px;
   height: 60px;
-  background-color:goldenrod;
+  background-color:#f26d73;
   padding: 20px;
   border-radius: 20px 20px 0px 0px;
 }
