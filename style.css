@@ -151,7 +151,7 @@ ot {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #004A9F;
+    color: #FFD06E;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -161,7 +161,7 @@ ot {
     height: 74px;
     background-color: transparent;
     text-shadow: none;
-    border: 5px solid #004A9F;
+    border: 5px solid #FFD06E;
     border-radius: 5px;
   }
 
