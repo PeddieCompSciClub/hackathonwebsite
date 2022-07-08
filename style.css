@@ -11,13 +11,13 @@
   }
   body {
     margin:0px;
-    background-color: #ffd06e;
+    background-color: #FFD06E;
 }
   /* Standard body text style */
 ot {
     font-size: 16px;
     line-height: 1.5rem;
-    font-family: "Verdana", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     color: #888888;
   }
@@ -145,7 +145,7 @@ ot {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f9ac3d;
+    color: #004A9F;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -155,14 +155,15 @@ ot {
     height: 74px;
     background-color: transparent;
     text-shadow: none;
-    border: 5px solid #f9ac3d;
+    border: 5px solid #004A9F;
     border-radius: 5px;
   }
 
   .hero-tickets-button:hover {
     font-size: 1.3rem;
     background-color: transparent;
-    color: #f9ac3d;
+    color: #f26d73;
+    border: 5px solid #f26d73;
     border-radius: 15px;
   }
 
@@ -226,7 +227,7 @@ nav li a {
   max-width:100%;
 }
 .navbar-custom {
-  background-color:#180032;
+  background-color:#005E9f;
   height: 150px;
   max-width: 100%;
   padding-top: 30px;
