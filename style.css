@@ -323,6 +323,27 @@ nav li a {
   font-weight: bold;
   
 }
+.columnteammembers {
+  flex: 10%;
+  width: 10%;
+  align-items: center; 
+}
+.columnteammembers p {
+  color:black;
+  font-family: 'Raleway', serif;
+  font-size: 16px;
+  padding: 0px;
+  text-align:center;
+  font-weight: bold;
+}
+.columnteammembers p2 {
+  color:black;
+  font-family: 'Raleway', serif;
+  font-size: 30px;
+  padding: 5px;
+  text-align:center;
+  font-weight: bold;
+}
 .column2 p2 {
   color:black;
   font-family:'Raleway', serif;
@@ -333,6 +354,20 @@ nav li a {
 #rect{
   width: 350px;
   height: 690px;
+  background-color:#FFD06E;
+  padding:20px;
+  border-radius: 20px;
+}
+#rectlong{
+  width: 450px;
+  height: 1070px;
+  background-color:#FFD06E;
+  padding:20px;
+  border-radius: 20px;
+}
+#rectsmall{
+  width: 450px;
+  height: 350px;
   background-color:#FFD06E;
   padding:20px;
   border-radius: 20px;
