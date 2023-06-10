@@ -522,6 +522,10 @@ h2 {
   text-align: center;
 }
 
+.img-with-text img{
+  object-fit: cover;
+}
+
 .column p {
   color: #FFD06E;
   font-family: 'Raleway', serif;
