@@ -793,3 +793,8 @@ section {
   margin-right: auto;
   width: 50%;
 }
+
+.schedule p {
+  padding-left: 1em;
+  text-indent: -1em;
+}
