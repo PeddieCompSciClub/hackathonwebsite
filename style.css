@@ -4,8 +4,8 @@ Blue: #005E9f
 Dark Blue: #004374
 Red: #f26d73
 */
-:root{
-  --navbar:#005E9F;
+:root {
+  --navbar: #005E9F;
 }
 
 * {
@@ -450,7 +450,6 @@ nav div {
 
 #rectlong {
   width: 450px;
-  height: 1070px;
   background-color: #FFD06E;
   padding: 20px;
   border-radius: 20px;
@@ -458,7 +457,6 @@ nav div {
 
 #rectsmall {
   width: 450px;
-  height: 390px;
   background-color: #FFD06E;
   padding: 20px;
   border-radius: 20px;
